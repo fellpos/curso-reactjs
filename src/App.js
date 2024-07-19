@@ -3,7 +3,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>q saudade de fazer um corte insano na cabeça de alguem</h1>
+      <h1>instalando clonacartao.exe </h1>
     </div>
   );
 }
