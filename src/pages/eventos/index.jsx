@@ -6,9 +6,9 @@ export default function Eventos() {
         alert('Oie, o usuario acabou de clicar')
     }
 
-    function movimentoMouse() {
-        alert('Oie, o usuario acabou de mover o mouse')
-    }
+    // function movimentoMouse() {
+    //     alert('Oie, o usuario acabou de mover o mouse')
+    // }
 
     function alterouValor(e) {
         let novoValor = e.target.value; // string
