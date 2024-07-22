@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './index.scss';
 
 export default function Eventos() {
@@ -22,6 +23,9 @@ export default function Eventos() {
     return (
         <div className='pagina-eventos pagina'>
             <header className='cabecalho'>
+                <Link to='/'>
+                    <i className='fa fa-arrow-left voltar'></i>
+                </Link>
                 <h1>ReactJS | Eventos</h1>
             </header>
             <section className='secao'>

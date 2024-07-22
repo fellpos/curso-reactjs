@@ -8,4 +8,14 @@
 
         font: 600 28px 'Roboto';
     }
+
+    .voltar{
+        font-size: 32px;
+    }
+
+    .cabecalho{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
 }

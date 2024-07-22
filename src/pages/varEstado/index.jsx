@@ -1,19 +1,23 @@
 import './index.scss'
 import { useState } from 'react'
+import { Link } from 'react-router-dom';
 
 export default function VarEstado() {
-    
+
     const [contador, Setcontador] = useState(0);
     const [tituloS2, SettituloS2] = useState('Oie');
     const [tituloS3, SettituloS3] = useState('Escolha um item');
     const [marcouOpcaoS4, SetmarcouOpcaoS4] = useState(false);
     const [tituloS5, SettituloS5] = useState('Oie');
     const [descricaoS5, SetdescricaoS5] = useState('Oie');
-    
+
 
     return (
         <div className='pagina-varestado pagina'>
             <header className='cabecalho'>
+                <Link to='/'>
+                    <i className='fa fa-arrow-left voltar'></i>
+                </Link>
                 <h1>ReactJS | Variável de Estado</h1>
             </header>
 
@@ -52,10 +56,10 @@ export default function VarEstado() {
 
             <div className='secao'>
                 <h1>{tituloS5} </h1>
-                
-                <input type="text" value={descricaoS5} onChange={e => SetdescricaoS5(e.target.value)}/>
-                
-                <button onClick={( ) => SettituloS5(descricaoS5)}>Alterar</button>
+
+                <input type="text" value={descricaoS5} onChange={e => SetdescricaoS5(e.target.value)} />
+
+                <button onClick={() => SettituloS5(descricaoS5)}>Alterar</button>
 
             </div>
 
