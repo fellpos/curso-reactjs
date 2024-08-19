@@ -111,7 +111,7 @@ export default function Comps() {
 
                 <div className='lista'>
                     {listaFilmes.map(item =>
-                        <CartaoFilme />
+                        <CartaoFilme item={item} />
                     )}
                 </div>
             </div>
