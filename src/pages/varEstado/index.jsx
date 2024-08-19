@@ -5,6 +5,8 @@ import { Link } from 'react-router-dom';
 import { tratarNumero } from '../../utils/conversao';
 import { calcularTotalIngresso } from '../../services/ingresso';
 
+import Cabecalho from '../../components/cabecalho';
+
 export default function VarEstado() {
 
     const [contador, SetContador] = useState(0);
@@ -93,12 +95,7 @@ export default function VarEstado() {
 
     return (
         <div className='pagina-varestado pagina'>
-            <header className='cabecalho'>
-                <Link to='/'>
-                    <i className='fa fa-arrow-left voltar'></i>
-                </Link>
-                <h1>ReactJS | Variável de Estado</h1>
-            </header>
+            <Cabecalho titulo='ReactJS | Váriavel de Estado' />
 
             <div className='secao planos'>
                 <h1>Meus planos atuais</h1>

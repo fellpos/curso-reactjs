@@ -1,0 +1,47 @@
+
+.comp-cartao-filme{
+    padding: 20px;
+    box-shadow: 0px -14px 15px #e5e5e5;
+    border-radius: 15px;
+    position: relative;
+
+    img {
+        width: 200px;
+    }
+
+    p {
+        font: 500 20px 'Roboto';
+        text-align: center;
+    }
+
+    .classificacao{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font: 600 28px 'Roboto';
+        background-color: #1bb31b;
+        color: #fff;
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+
+    .c-l {
+        background-color: #1bb31b;
+    }
+
+    .c-12, .c-14 {
+        background-color: #db8709;
+    }
+
+    .c-16 {
+        background-color: #c00909;
+    }
+
+    .c-18 {
+        background-color: #000;
+    }
+}
