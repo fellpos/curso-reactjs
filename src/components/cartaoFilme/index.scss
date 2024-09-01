@@ -1,5 +1,4 @@
-
-.comp-cartao-filme{
+.comp-cartao-filme {
     padding: 20px;
     box-shadow: 0px -14px 15px #e5e5e5;
     border-radius: 15px;
@@ -14,11 +13,11 @@
         text-align: center;
     }
 
-    .classificacao{
+    .classificacao {
         display: flex;
         justify-content: center;
         align-items: center;
-        
+
         font: 600 18px 'Roboto';
         background-color: #1bb31b;
         border-radius: 10px;
@@ -35,7 +34,8 @@
         background-color: #1bb31b;
     }
 
-    .c-12, .c-14 {
+    .c-12,
+    .c-14 {
         background-color: #db8709;
     }
 
@@ -45,5 +45,21 @@
 
     .c-18 {
         background-color: #000;
+    }
+
+    .estrela {
+        color: #e6e21b;
+    }
+
+    .estreia {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        padding: 7px 10px;
+        border-radius: 100px;
+        background-color: #272628;
+        color: #fff;
+        font: 500 18px 'Roboto';
+
     }
 }

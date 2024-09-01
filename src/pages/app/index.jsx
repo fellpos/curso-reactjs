@@ -11,16 +11,6 @@ export default function App() {
       <section className='secao'>
         <h1>Temas</h1>
 
-        {/* <input type="text" placeholder='Digite aqui' />
-        <br /><br />
-        <select>
-          <option >item 1</option>
-          <option >item 2</option>
-
-        </select>
-        <br /><br />
-        <button> Clique aqui</button> */}
-
         <ul>
           <li>
             <Link to='/contato'>Ir para Contato</Link>
@@ -33,6 +23,12 @@ export default function App() {
           </li>
           <li>
             <Link to='/componentes'>Ir para Componentes</Link>
+          </li>
+          <li>
+            <Link to='/rendecond'>Ir para Renderização Condicional</Link>
+          </li>
+          <li>
+            <Link to='/efeitos'>Ir para Efeitos</Link>
           </li>
         </ul>
       </section>
